@@ -18,8 +18,12 @@
         </Label>
 
         <Button x:Name="btnClick"
-                Text="Next Page"
+                Text="Attached_Property Page"
                 HorizontalOptions="Center"
                 Clicked="btnClick_Clicked"/>
+        <Button x:Name="btnClick2"
+                Text="Attached_Behavior Page"
+                HorizontalOptions="Center"
+                Clicked="btnClick2_Clicked"/>
     </StackLayout>
 </ContentPage>
