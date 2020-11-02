@@ -16,5 +16,10 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+        <Button x:Name="btnClick"
+                Text="Next Page"
+                HorizontalOptions="Center"
+                Clicked="btnClick_Clicked"/>
     </StackLayout>
 </ContentPage>
