@@ -27,5 +27,10 @@ namespace Bim493_week05
         {
             Navigation.PushModalAsync(new MyPage3());
         }
+
+        void btnClick3_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new MyPage4());
+        }
     }
 }

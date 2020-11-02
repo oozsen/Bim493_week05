@@ -11,6 +11,7 @@
                     <digits:DigitBehavior x:Name="DigitBehavior"/>
                 </Entry.Behaviors>
             </Entry>
+
             <Button Text="Call" HorizontalOptions="Center"
                     IsEnabled="{Binding Source={x:Reference DigitBehavior}, Path=IsValid}"/>
         </StackLayout>

@@ -25,5 +25,9 @@
                 Text="Attached_Behavior Page"
                 HorizontalOptions="Center"
                 Clicked="btnClick2_Clicked"/>
+        <Button x:Name="btnClick3"
+                Text="Bindable Property Page"
+                HorizontalOptions="Center"
+                Clicked="btnClick3_Clicked"/>
     </StackLayout>
 </ContentPage>
