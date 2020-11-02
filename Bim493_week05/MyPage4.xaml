@@ -11,6 +11,7 @@
                         <TextCell Text="Name" Detail="Ozgur Ozsen"/>
                         <EntryCell Label="Title" Placeholder="(eg shopping)"/>
                         <SwitchCell Text="Notifications" On="True"/>
+
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="13,0">
                                 <Label Text="Stars" VerticalOptions="Center"/>
