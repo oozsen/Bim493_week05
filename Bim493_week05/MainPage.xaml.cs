@@ -13,6 +13,9 @@ namespace Bim493_week05
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = this;
         }
+        public string Hello { get; set; } = "Hello bim493";
+        public string Hello2 { get; set; } = "Mobile Programming 1 Course Week05";
     }
 }
