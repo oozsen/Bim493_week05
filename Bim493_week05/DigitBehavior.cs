@@ -37,9 +37,10 @@ namespace Bim493_week05
         {
             Entry entry;
             entry = (Entry)sender;
-            bool b = (entry.Text.Length > 11) ? false : true;
+            bool b = (entry.Text.Length == 11) ? true : false;                       
+
             //this.IsValid = Regex.IsMatch(e.NewTextValue, digitRegex);
-            this.IsValid = Regex.IsMatch(e.NewTextValue, digitRegex) && b;
+                this.IsValid = Regex.IsMatch(e.NewTextValue, digitRegex) && b;
             entry.TextColor = this.IsValid ? Color.Default : Color.Red;
         }
 
